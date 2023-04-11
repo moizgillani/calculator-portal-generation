@@ -33,8 +33,13 @@
                     "primaryColor": "#94C13D"
                 }
             },
-            "enableExport": false,
-            "enableConsoleCalls": true
+            "enableExport": true,
+            "enableConsoleCalls": true,
+            "languageSettings": {
+                "java_eclipse_jre_lib": {
+                  "sdkDownloadLink": "https://www.acme.org/downloads/java_sdk.zip"
+                }
+            }
         }
     }
 }
