@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <title>My Portal Title</title>
+    <link href="static/css/portal.css" rel="stylesheet" />
+    <style>
+        .branding-container .navigation .center .version-select select {
+            background-image: url('static/images/docs/selectArrowDown.svg');
+        }
+        .branding-container .logo p {
+            margin-left: 15px;
+            border-left: 1px solid #d9dee5;
+            padding-left: 15px;
+        }
+    </style>
+      <link href="https:\/\/fonts.googleapis.com\/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="portal-header">
+            <div class="branding-container">
+                <div class="logo">
+                    <a href="https://www.apimatic.io">
+                        <img src="static/images/logo.png"  />
+                    </a>
+                    <p>My Navigation Title</p>
+                </div>
+            </div>
+        </div>
+        <div class="hosted-api-docs">
+            <div id="apimatic-widget" style="height: 100%; width: 100%;"></div>
+        </div>
+    </div>
+    <script defer src="https://dxjs.apimatic.io/v7/static/js/portal.v7.js"></script>
+    <script type="text/javascript">
+        window.addEventListener('DOMContentLoaded', function(event) {
+            APIMaticDevPortal.show(
+                {"container":"apimatic-widget","portalStyle":"default","apiKey":"xxx","baseUrl":"./","enableExport":false,"enableAnalytics":false,"enableConsoleCalls":true,"useProxyForConsoleCalls":false,"languageSettings":{"http_curl_v1":{"sdkDownloadLink":"","disableSdkDownload":false},"java_eclipse_jre_lib":{"sdkDownloadLink":"","disableSdkDownload":false},"cs_net_standard_lib":{"sdkDownloadLink":"","disableSdkDownload":false},"ts_generic_lib":{"sdkDownloadLink":"","disableSdkDownload":false},"php_generic_lib_v2":{"sdkDownloadLink":"","disableSdkDownload":false},"python_generic_lib":{"sdkDownloadLink":"","disableSdkDownload":false},"ruby_generic_lib":{"sdkDownloadLink":"","disableSdkDownload":false}},"initialPlatform":"http_curl_v1","themeOverrides":{"themeType":"cool","palette":{"primaryColor":"#94C13D"}},"codegenApiRoutes":{"docsgen":"/static/docs/apimatic-calculator-test-{template}.json","codegen":"/static/sdks/apimatic-calculator-test-{template}.zip","transform":"/static/exports/apimatic-calculator-test-{format}.{ext}"},"renameHttpToRest":false}
+            );
+        });
+    </script>
+    
+</body>
+
+</html>
