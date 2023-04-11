@@ -21,22 +21,8 @@
             },
             "csharp": {},
             "typescript": {},
-            "php": {
-                "packageRepository": "Packagist",
-                "packageSettings": {
-                    "GroupId": "com.apimatic",
-                    "PackageName": "sample-sdk-artifact-id",
-                    "Version": "1.0.0"
-                }
-            },
-            "python": {
-                "packageRepository": "PyPI",
-                "packageSettings": {
-                    "GroupId": "com.apimatic",
-                    "PackageName": "sample-sdk-artifact-id",
-                    "Version": "1.0.0"
-                }
-            },
+            "php": {},
+            "python": {},
             "ruby": {}
         },
         "headIncludes": "  <link href=\"https:\\/\\/fonts.googleapis.com\\/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap\" rel=\"stylesheet\">",
