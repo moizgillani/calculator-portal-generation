@@ -5,8 +5,8 @@
         "debug": {
             "publishReport": true
         },
-        "pageTitle": "My Portal Title",
-        "navTitle": "My Navigation Title",
+        "pageTitle": "Calculator Portal",
+        "navTitle": "Calculator API",
         "logoUrl": "static/images/logo.png",
         "logoLink": "https://www.apimatic.io",
         "languageConfig": {
@@ -40,7 +40,9 @@
                 "cs_net_standard_lib": {},
                 "java_eclipse_jre_lib": {},
                 "php_generic_lib_v2": {},
-                "python_generic_lib": {},
+                "python_generic_lib": {
+                    "disableSdkDownload": false
+                },
                 "ruby_generic_lib": {},
                 "ts_generic_lib": {}
             }

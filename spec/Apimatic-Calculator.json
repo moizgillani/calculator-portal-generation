@@ -87,7 +87,7 @@
           "DIVIDE"
         ],
         "type": "string",
-        "description": "Possible operators are sum and multiply",
+        "description": "Possible operators are sum, subtract, multiply, divide",
         "example": "SUM"
       }
     }
