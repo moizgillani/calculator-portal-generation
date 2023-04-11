@@ -34,18 +34,7 @@
                 }
             },
             "enableExport": true,
-            "enableConsoleCalls": true,
-            "languageSettings": {
-                "http_curl_v1": {},
-                "cs_net_standard_lib": {},
-                "java_eclipse_jre_lib": {},
-                "php_generic_lib_v2": {},
-                "python_generic_lib": {
-                    "disableSdkDownload": false
-                },
-                "ruby_generic_lib": {},
-                "ts_generic_lib": {}
-            }
+            "enableConsoleCalls": true
         }
     }
 }
